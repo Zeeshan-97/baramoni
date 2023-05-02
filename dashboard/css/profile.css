@@ -1,0 +1,285 @@
+/* profile section start */
+.form-control::placeholder{
+    color: #274D5E;
+    font-size: 14px;
+  }
+  h3.basic_head {
+    font-size: 23px;
+    font-family: 'gtwm';
+    color: #274D5E;
+}
+.profileanc1 {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    justify-content: space-between;
+}
+.useracc{
+    font-size: 15px;
+    background: #3DA033;
+    width: -webkit-fill-available;
+    /* text-align: center; */
+    color: white;
+    margin: 0;
+    padding-left: 1rem;
+    font-family: 'gtw';
+}
+.useriamge img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+  }
+  .useriamgetext {
+    margin: 1.5rem 0px;
+}
+.row.profile-h .col-md-3 a{
+  margin: 1.5rem 0px;
+}
+  .useriamge {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+  }
+  .user-profile-sec .useriamge {
+    height: 160px;
+    width: 160px;
+}
+.user-profile-sec .useriamge img {
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+}
+section.ProfileInfo-section .form-start .form-control::placeholder{
+  color: #274D5E;
+  font-family: 'gtwm';
+}
+.form-start .form-group .btn {
+  background: #3DA033;
+}
+.form-start .btn-right .btn {
+  background: #3DA033;
+}
+  .profile-sec-head .contact-us-head {
+    padding: 4rem;
+  }
+  section.ProfileInfo-section .btn-right {
+    text-align: end;
+  }
+  .user-profile-sec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1rem;
+    background: #fff;
+    box-shadow: 0px 0px 2px 0px rgb(0 0 0 / 17%);
+    -webkit-box-shadow: 0px 0px 2px 0px rgb(0 0 0 / 17%);
+    -moz-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.17);
+  }
+  
+  /* .user-profile-sec h3 {
+    font-size: 15px;
+    background: #3DA033;
+    width: -webkit-fill-available;
+    text-align: center;
+    color: white;
+  } */
+  .user-profile-sec .username {
+    font-size: 13px;
+  }
+  
+  .user-profile-sec .useremail {
+    font-size: 13px;
+  }
+  button.btn.btn-primary {
+    background: #000;
+    color: #fff;
+    font-family: "Poppins";
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 5px;
+    transition: 0.6s;
+  }
+  button.btn.btn-primary:hover {
+    background: #fff;
+    box-shadow: 0px 0px 0px 2px #000;
+    color: #000;
+  }
+  section.ProfileInfo-section .col-md-7 p {
+    font-size: 13px;
+  }
+  .profiled {
+    font-size: 14px;
+    font-weight: 800;
+  }
+  .col-md-3.profilec {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .col-md-3.profilec span {
+    font-size: 13px;
+    color: #989898;
+  }
+  /* .profilen {
+    display: flex;
+    gap: 20px;
+  } */
+  .profilen p:nth-child(2) {
+    font-size: 13px;
+    color: #919191;
+    margin: 0;
+  }
+  .profilen p:nth-child(1) {
+    margin-bottom: 5px;
+    color: #000;
+}
+  .profilen a {
+    font-size: 14px;
+    text-decoration: underline;
+    color: #000;
+    padding-bottom: 5px;
+    font-family: 'poppins';
+    font-weight: 500;
+  }
+  .profileanc {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+  }
+  
+  /* .profileanc p {
+    font-size: 16px !important;
+    color: #000 !important;
+  } */
+  .photo p {
+    font-size: 16px !important;
+    margin: 0;
+  }
+  .row.profile-h {
+    display: flex;
+    /* align-items: center; */
+  }
+  .row.profile-h .col-md-3 a {
+    text-decoration: underline;
+    color: #000;
+    margin: 1.5rem 0px;
+    font-weight: 500;
+    font-family: 'Poppins';
+    font-size: 14px;
+  }
+  .row.profile-h .col-md-3 {
+    margin: 1.5rem 0;
+    height: fit-content;
+}
+.profileanc p.profileno {
+  color: #919191;
+}
+.profilen p.parisfrance {
+  color: #919191;
+  font-size: 13px;
+}
+  .information {
+    border-radius: 6px;
+    box-shadow: 0px 2px 7px 1px rgba(0, 0, 0, 0.27);
+    padding: 2rem;
+    -webkit-box-shadow: 0px 2px 7px 1px rgba(0, 0, 0, 0.27);
+    -moz-box-shadow: 0px 2px 7px 1px rgba(0, 0, 0, 0.27);
+    background: #FCFCFC;
+  }
+  .user-profile-sec .username1 {
+    font-size: 13px;
+    font-weight: 700;
+    /* border-bottom: 1px solid #CECECE; */
+    width: 100%;
+    /* text-align: center; */
+    padding: 1rem 0;
+    /* margin-left: 5rem; */
+}
+.user-profile-sec .username {
+    font-weight: 700;
+}
+.user-profile-sec .username {
+    font-weight: 700;
+    text-align: left;
+    width: 100%;
+}
+.agentprofile .useremail {
+    /* border-bottom: 1px solid #CECECE; */
+    width: 100%;
+    padding-bottom: 1rem;
+    color: #274D5E;
+}
+.agentprofile hr.line {
+    border-top: 1px solid #CECECE;
+    width: 100%;
+}
+.agentprofile button.btn.btn-primary{
+    padding: 10px 60px;
+}
+.agentprofile .username1 {
+    /* margin-left: 5rem; */
+}
+.agentprofile .username {
+    /* margin-left: 5rem; */
+    text-align: center;
+}
+.agentprofile .useremail {
+    /* margin-left: 5rem; */
+    text-align: center;
+}
+.agentprofile .username1 a {
+    text-decoration: none;
+    color: #5E5E5E;
+}
+p.fullname {
+    font-size: 13px;
+    font-weight: 700;
+}
+p.hoseusa {
+    margin: 0;
+}
+.agentprofile .username a {
+    color: #274D5E;
+}
+h3.text-center.myaccount.pb-5 {
+  color: #000;
+}
+  /* profile section End */
+  /* section profile information content start here */
+  h4.top_heading {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 2rem;
+}
+.information_content {
+  background: #FCFCFC;
+  margin: 4rem 2rem;
+}
+.business_cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.business_cont a {
+  text-decoration: underline;
+  color: #000;
+  font-weight: 500;
+  font-family: 'Poppins';
+  font-size: 14px;
+}
+.business_label {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 11px;
+  margin-bottom: 10px;
+    color: #000;
+}
+.business_ans {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 11px;
+  margin-bottom: 10px;
+}
+  /* section profile information content end here */

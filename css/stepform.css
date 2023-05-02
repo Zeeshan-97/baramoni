@@ -1,0 +1,534 @@
+/* body {
+  background-color: #f9f9f9;
+} */
+figure {
+  padding: 0;
+}
+.img-tls {
+  display: none;
+}
+.bs-stepper .step.active .bs-stepper-circle {
+  background-color: unset;
+  color: #619700;
+  
+}
+.bs-stepper .step .bs-stepper-circle {
+  background-color: unset;
+  font-size: 23px;
+  font-family: 'gm';
+  color: #B2B2B2;
+  position: relative;
+}
+.bs-stepper .step.active .bs-stepper-circle::after{
+  content: "";
+  position: absolute;
+  background-color: #619700;
+  width: 70px;
+  height: 11px;
+  top: 35px;
+  left: -15px;
+  border-radius: 5px;
+  z-index: 2;
+}
+.bs-stepper .step{
+  display: unset;
+  width: 400px;
+}
+.bs-stepper .line {
+  border-top: 2px solid rgba(0,0,0,.12);
+  -ms-flex: auto;
+  flex: auto;
+  height: 0;
+  min-width: 32px;
+  /* width: 600px; */
+  margin-top: 4rem;
+  position: absolute;
+  left: 12rem;
+  right: 10rem;
+  top: 0;
+}
+.bs-stepper .step .step-trigger, .bs-stepper .step a, .bs-stepper .step button{
+  background: transparent;
+  border: unset;
+}
+.bs-stepper .bs-stepper-header {
+  position: absolute;
+  left: 0;
+  top: 6rem;
+  right: 0;
+}
+.bs-stepper{
+  position: relative;
+}
+.bs-stepper .bs-stepper-content .content h2 {
+  margin-bottom: 6rem;
+  margin-top: 2rem;
+}
+.setpper-step-container {
+  padding-bottom: 0;
+}
+.signup-step-container{
+	padding: 150px 0px;
+	padding-bottom: 60px;
+}
+.wizard .nav-tabs {
+  position: relative;
+  margin-bottom: 0;
+  border-bottom-color: transparent;
+}
+.wizard > div.wizard-inner {
+  position: relative;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.connecting-line {
+  height: 2px;
+  background: #e0e0e0;
+  position: absolute;
+  width: 65%;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 15px;
+  z-index: 1;
+}
+.wizard .nav-tabs > li.active > a, .wizard .nav-tabs > li.active > a:hover, .wizard .nav-tabs > li.active > a:focus {
+  color: #555555;
+  cursor: default;
+  border: 0;
+  border-bottom-color: transparent;
+}
+span.round-tab {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  display: inline-block;
+  border-radius: 50%;
+  background: #E9E9E9;
+  z-index: 2;
+  position: absolute;
+  left: 0;
+  text-align: center;
+  font-size: 16px;
+  color: #A1A1A1;
+  font-weight: 500;
+}
+span.round-tab i{
+  color:#555555;
+}
+.wizard li.active span.round-tab {
+  background: #8DC63F;
+  color: #fff;
+}
+.wizard li.active span.round-tab i{
+  color: #5bc0de;
+}
+.wizard .nav-tabs > li.active > a i{
+	color: #0db02b;
+}
+.wizard .nav-tabs > li {
+  width: 33%;
+}
+.wizard li:after {
+  content: " ";
+  position: absolute;
+  left: 46%;
+  opacity: 0;
+  margin: 0 auto;
+  bottom: 0px;
+  border: 5px solid transparent;
+  border-bottom-color: red;
+  transition: 0.1s ease-in-out;
+}
+.wizard .nav-tabs > li a {
+  width: 30px;
+  height: 30px;
+  margin: 20px auto;
+  border-radius: 100%;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  top: 0;
+}
+.wizard .nav-tabs > li a i{
+	position: absolute;
+  top: -15px;
+  font-style: normal;
+  font-weight: 400;
+  white-space: nowrap;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 12px;
+  font-weight: 700;
+  color: #000;
+}
+.wizard .nav-tabs > li a:hover {
+  background: transparent;
+}
+.wizard .tab-pane {
+  position: relative;
+  padding-top: 20px;
+}
+.wizard h3 {
+  margin-top: 0;
+}
+.prev-step,
+.next-step{
+  font-size: 13px;
+  padding: 8px 24px;
+  border: none;
+  border-radius: 4px;
+  margin-top: 30px;
+}
+.next-step{
+	background-color: #0db02b;
+}
+.skip-btn{
+	background-color: #cec12d;
+}
+.step-head{
+  font-size: 20px;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.term-check{
+	font-size: 14px;
+	font-weight: 400;
+}
+.list-box{
+	padding: 10px;
+}
+.signup-logo-header .logo_area{
+	width: 200px;
+}
+.signup-logo-header .nav > li{
+	padding: 0;
+}
+.signup-logo-header .header-flex{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.list-inline li{
+    display: inline-block;
+}
+/* Step 1 Content Css Start Here */
+.checkout_page_sec  .btn {
+  border-radius: 20px;
+  width: 100%;
+  background: #619700;
+  border-color: #619700;
+  color: #fff;
+  font-family: 'gm';
+}
+.checkout_page_sec .btn:hover {
+  background: #fff;
+  color: #619700;
+}
+.checkout_page_sec .addressDetail {
+  background: #fff;
+  padding: 30px 30px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px 5px rgb(0 0 0 / 4%);
+-webkit-box-shadow: 0px 0px 5px 5px rgb(0 0 0 / 4%);
+-moz-box-shadow: 0px 0px 5px 5px rgb(0 0 0 / 4%);
+}
+.checkout_page_sec .addressDetail .head {
+  padding-bottom: 20px;
+  text-align: center;
+}
+.form-group .form-control {
+  border: 1px solid #70707063;
+  background: transparent;
+  border-radius: 50px;
+  padding: 15px 20px;
+}
+.form-group .form-control::placeholder {
+  color: #24463891;
+}
+.form-group select.region {
+  width: 100%;
+  padding: 15px 20px;
+  border-radius: 50px;
+  border: 1px solid #70707063;
+  color: #24463891;
+  outline: none;
+  appearance: none;
+  background: url(../img/chevron_right_1.png) no-repeat;
+  background-position-x: 95%;
+    background-position-y: center;
+}
+.form-group textarea {
+  border-radius: 20px !important;
+  height: 120px;
+  resize: none;
+}
+.checkout_page_sec .addressDetail .list-inline li {
+  width: 100%;
+}
+.checkout_page_sec .addressDetail .list-inline .default-btn.next-step {
+  width: 100%;
+  background: #8dc63f;
+  font-size: 17px;
+  font-weight: 600;
+  color: #fff;
+  width: 100%;
+  border-radius: 50px;
+}
+/* Step 1 Css Start Here */
+
+/* Step 2 Css Start Here */
+.checkout_page_sec .paymentInfo {
+  background: #fff;
+  padding: 30px 30px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.04);
+-webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.04);
+-moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.04);
+}
+.checkout_page_sec .paymentInfo .head {
+  padding-bottom: 20px;
+}
+.checkout_page_sec .paymentInfo  .payment-cards .form-check input {
+  opacity: 0;
+}
+.checkout_page_sec .paymentInfo .payment-cards  .form-check input:checked ~ label.form-check-label figure {
+  border: 4px solid #E7ADB3;
+}
+.checkout_page_sec .paymentInfo .payment-cards .form-check  figure {
+  padding: 3px 10px;
+  border-radius: 8px;
+}
+.checkout_page_sec .paymentInfo ul.list-inline li {
+  width: 100%;
+}
+.checkout_page_sec .paymentInfo ul.list-inline li button {
+  width: 100%;
+  background: #8dc63f;
+  font-size: 17px;
+  font-weight: 600;
+  color: #fff;
+  width: 100%;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+.checkout_page_sec .paymentInfo ul.list-inline li button:hover {
+  background: #262262 !important;
+}
+/* Step 2 Css End Here */
+
+/* Step 3 Content Css Start Here */
+.checkout_page_sec .productsummary-info .topBaR {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.checkout_page_sec .productsummary-info .topBaR .iconDvv {
+  position: absolute;
+  right: 70px;
+}
+.checkout_page_sec .productsummary-info {
+  background: #fff;
+  padding: 60px 50px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.04);
+-webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.04);
+-moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.04);
+}
+.checkout_page_sec .productsummary-info .topBaR .headd h4 {
+  margin-bottom: 0;
+}
+.checkout_page_sec .productsummary-info .addproduct {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 15px;
+  border-bottom: 1px solid #7070703b;
+}
+.checkout_page_sec .productsummary-info .addproduct.lst {
+  border: 0;
+}
+.checkout_page_sec .productsummary-info .addproduct .imgBox figure {
+  margin: 0;
+  border: 1px solid #707070;
+}
+.checkout_page_sec .productsummary-info .shipment-Info {
+  padding: 40px 0 0;
+}
+.checkout_page_sec .productsummary-info .shipment-Info .uerInfo {
+  padding: 40px 0 20px;
+  border-bottom: 1px solid #70707038;
+  border-top: 1px solid #70707038;
+}
+.checkout_page_sec .productsummary-info .shipment-Info .uerInfo .info-flex {
+  display: flex;
+  align-items: flex-start;
+  padding-bottom: 5px;
+}
+.checkout_page_sec .productsummary-info .shipment-Info .uerInfo .info-flex  .property {
+  width: 80px;
+}
+.checkout_page_sec .productsummary-info .shipment-Info .uerInfo .info-flex h5 {
+  font-size: 15px !important;
+}
+.checkout_page_sec .productsummary-info .billing-detail .topBaR {
+  padding: 40px 0  20px;
+}
+.checkout_page_sec .productsummary-info .card-infoo {
+  display: flex;
+  align-items: center;
+}
+.checkout_page_sec .productsummary-info .card-infoo .img-box {
+  min-width: 100px;
+}
+.checkout_page_sec .productsummary-info .card-infoo .img-box figure {
+  margin-bottom: 0;
+}
+.checkout_page_sec .productsummary-info .card-infoo .card-number span {
+  font-size: 13px;
+  font-family: 'gm';
+}
+.checkout_page_sec .productsummary-info .card-infoo .card-number input {
+  border-radius: 0;
+  background: transparent;
+  color: #343A40;
+  font-size: 18px;
+  font-weight: 600;
+  outline: none;
+  border: unset;
+  display: block;
+}
+.billing-detail .card-number {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.checkout_page_sec .productsummary-info ul.list-inline li {
+  width: 100%;
+}
+.checkout_page_sec .productsummary-info .next-step {
+  background: #8dc63f;
+  font-size: 17px;
+  font-weight: 600;
+  color: #fff;
+  width: 100%;
+  border-radius: 50px;
+}
+/* Order Summary Css Start Here */
+.checkout_page_sec .OrderSummary {
+  background: #fff;
+}
+.checkout_page_sec .OrderSummary .headingg {
+  text-align: center;
+}
+.checkout_page_sec .OrderSummary .headingg h3 {
+  font-family: 'gm';
+  font-size: 25px;
+}
+.checkout_page_sec .OrderSummary {
+  background: #fff;
+  padding: 25px 40px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.04);
+-webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.04);
+-moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.04);
+}
+.checkout_page_sec .OrderSummary .order-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3px 0;
+}
+.checkout_page_sec .OrderSummary .orderTotal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 25px;
+  border-top: 1px solid #C5C5C5;
+}
+.checkout_page_sec .OrderSummary .order_info {
+  padding-bottom: 20px;
+}
+/* Order Summary Css End Here */
+/* Step 3 Content Css End Here */
+ label.cus_label { 
+  cursor: pointer;
+  /* Style as you please, it will become the visible UI component. */
+}
+
+#inlineRadio1 {
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+}
+#inlineRadio2 {
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+}
+#inlineRadio3 {
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+}
+#inlineRadio4 {
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+}
+#inlineRadio5 {
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+} */
+[type="radio"]:checked + label.cus_label:before,
+[type="radio"]:not(:checked) + label.cus_label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    
+}
+[type="radio"]:checked + label.cus_label:after,
+[type="radio"]:not(:checked) + label.cus_label:after {
+  content: '';
+  border: 2px solid #619700;
+  padding: 15px 1.8rem;
+  position: absolute;
+  border-radius: 5px;
+  top: 0px;
+  left: 10px;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+[type="radio"]:not(:checked) + label.cus_label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+[type="radio"]:checked + label.cus_label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+[type="radio"]:checked + label.cus_label:after,
+[type="radio"]:not(:checked) + label.cus_label:after {
+  content: '';
+  border: 2px solid #619700;
+  padding: 15px 1.8rem;
+  position: absolute;
+  border-radius: 5px;
+  top: 0px;
+  left: 10px;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+.payment-cards {
+  padding: 1rem;
+}
+section.checkout_page_sec h5,section.checkout_page_sec h4 {
+  font-family: 'gm';
+}

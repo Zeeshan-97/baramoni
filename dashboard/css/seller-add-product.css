@@ -1,0 +1,270 @@
+/* Seller Add Products Css Start Here */
+.dashboard .products_adding {
+  background: #b1b1b11f;
+  padding: 50px 60px;
+}
+.dashboard .products_adding .heading_wrapper {
+  padding-bottom: 60px;
+}
+.dashboard .products_adding .heading_wrapper h3 {
+  font-size: 22px;
+  color: #000000;
+  font-family: "Poppins";
+}
+.dashboard .products_adding label {
+  color: #000000;
+  font-size: 12px;
+  color: #000000;
+  font-family: "Poppins";
+  font-weight: 600;
+}
+.dashboard .products_adding label span.colored {
+  color: #3DA033;
+  padding-left: 10px;
+}
+.dashboard .products_adding .form-control {
+  border: 1px solid #000000;
+  color: #000000;
+  font-family: "Poppins";
+  font-size: 12px;
+  background: transparent;
+  height: 45px !important;
+}
+.dashboard .products_adding hr {
+  background: #bababa;
+  width: 100%;
+  margin: 35px 20px 30px;
+}
+.dashboard .products_adding .checkboxex label.container {
+  padding-left: 30px;
+}
+.dashboard .products_adding .checkboxex label.container input {
+  opacity: 0;
+}
+.dashboard .products_adding .checkboxex label.container span.checkmark:before {
+  content: "";
+  background: transparent;
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  left: 0;
+  border: 2px solid #f6f6f6;
+  box-shadow: 0px 0px 0px 1px #000;
+  top: 1px;
+}
+.dashboard
+  .products_adding
+  .checkboxex
+  label.container
+  input:checked
+  ~ span.checkmark:before {
+  background: #000;
+}
+.dashboard .products_adding .radios_btn label {
+  padding-left: 30px;
+}
+.dashboard .products_adding .radios_btn label {
+  color: #07a8c4;
+}
+.dashboard .products_adding .radios_btn input {
+  opacity: 0;
+}
+.dashboard .products_adding .radios_btn span.checkmark:before {
+  content: "";
+  background: transparent;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: 0;
+  border-radius: 50%;
+  border: 2px solid #f6f6f6;
+  box-shadow: 0px 0px 0px 1px #07a8c4;
+  top: 1px;
+}
+.dashboard .products_adding .radios_btn input:checked ~ span.checkmark:before {
+  background: #07a8c4;
+}
+.dashboard .products_adding .bottom_bar input {
+  width: unset;
+}
+.dashboard .products_adding .bottom_bar .checkbox {
+  display: flex;
+  align-items: center;
+}
+.dashboard .products_adding .bottom_bar {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  /* margin-top: 40px; */
+}
+.dashboard .products_adding .bottom_bar label {
+  margin: 0 0 0 10px;
+}
+.dashboard .products_adding .bottom_bar .button-group button.btn {
+  background: #F3F3F3;
+  padding: 8px 50px;
+  color: #000000;
+  font-family: "Poppins";
+  font-size: 12px;
+  cursor: pointer;
+  border: 1px solid #060606;
+  transition: 0.6s;
+}
+.dashboard .products_adding .bottom_bar .button-group button.btn.submit{
+  background: #000;
+  color: #fff;
+}
+.dashboard .products_adding .bottom_bar .button-group button.btn:hover {
+  background: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+.dashboard .products_adding .custom-file {
+  width: 100%;
+}
+.dashboard .products_adding .custom-file input.form-control {
+  background-image: url(../../img/attach.png) ;
+  background-position-x: 95%;
+    background-position-y: center;
+    background-repeat: no-repeat;
+}
+.dashboard .products_adding .custom-file input[type="file"] {
+  position: absolute;
+  width: 100%;
+  top: 33px;
+  cursor: pointer;
+}
+.dashboard .products_adding .custom-file .form-control {
+  background-image: url(../img/pin.png);
+  background-repeat: no-repeat;
+  background-position: right 10px center !important;
+}
+.dashboard .products_adding ul.file-list {
+  padding: 0 0 0 13px;
+  list-style: auto;
+  color: #3DA033;
+  font-size: 12px;
+  font-family: "Poppins";
+  font-weight: 500;
+  text-transform: capitalize;
+  padding-top: 30px;
+  margin: 0;
+}
+.dashboard .products_adding ul.file-list li {
+  margin: 10px 0;
+}
+.dashboard .products_adding ul.file-list span.remove-list {
+  position: absolute;
+  right: 15rem;
+  background: #3DA033;
+  width: 18px;
+  text-align: center;
+  height: 18px;
+  border-radius: 50%;
+  color: #ffffff;
+  font-size: 10px;
+  line-height: 19px;
+}
+@media (max-width: 575px) {
+  .dashboard .products_adding {
+    padding: 30px 10px;
+  }
+  .dashboard .products_adding ul.file-list span.remove-list {
+    right: 1rem;
+  }
+  .dashboard .products_adding .bottom_bar {
+    margin-top: 20px;
+    display: block;
+  }
+  .dashboard .products_adding .bottom_bar .button-group {
+    margin-top: 20px;
+  }
+  .dashboard .products_adding .bottom_bar .button-group button.btn {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  .dashboard .products_adding .bottom_bar label {
+    font-size: 9px;
+  }
+}
+
+.dashboard .products_adding .form-control {
+  border: 1px solid #ffffff;
+  color: #000;
+  font-family: "Poppins";
+  font-size: 12px;
+  background: #ffffff;
+  height: 45px !important;
+}
+
+section.dashboard {
+  background-color: #FFFFFF;
+}
+
+.heading_wrapper {
+  text-align: center;
+  padding: 40px;
+}
+
+textarea#exampleFormControlTextarea1 {
+  height: 220px !important;
+  resize: none;
+}
+
+
+
+
+
+/* Seller Add Products Css End Here */
+/* custom checkbox start here */
+.custom_checkbox {
+  display: block;
+  margin-bottom: 0;
+  margin-top: 8px;
+}
+
+.custom_checkbox input {
+  padding: 0;
+  height: initial;
+  width: initial;
+  margin-bottom: 0;
+  display: none;
+  cursor: pointer;
+}
+
+.dashboard .products_adding .custom_checkbox label {
+  position: relative;
+  cursor: pointer;
+  font-size: 11px;
+}
+.custom-control-input:checked~.custom-control-label::before{
+  background-color: #000;
+}
+.custom_checkbox label:before {
+  content:'';
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: 2px solid #000;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+  padding: 6px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-right: 5px;
+  margin-bottom: 7px;
+}
+
+.custom_checkbox input:checked + label:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 3px;
+    left: -18px;
+  width: 6px;
+  height: 14px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+/* custom checkbox end here */

@@ -1,0 +1,63 @@
+/* .login{
+    padding-top: 200px;
+    padding-bottom: 200px;
+} */
+.login-form .redirect-to-sign-up {
+  margin-top: 40px;
+}
+.redirect-to-sign-up a {
+  font-weight: 700;
+}
+.login-form form {
+  margin-top: 30px;
+}
+.login-form h3 {
+  font-size: 32px;
+  text-transform: uppercase;
+}
+.login .check-box-wrapper {
+  flex: 7;
+}
+.login span.forgot-pass {
+  flex: 5;
+}
+.login .check-box-wrapper input#inlineCheckbox1 {
+  margin-top: 5px;
+}
+.login input {
+  margin: 0px 10px;
+  background: #ffffff !important;
+  border: 0;
+  border-bottom: 1px solid #c5c5c5;
+  border-radius: 0px;
+  margin: 10px 0px;
+  padding: 18px 0;
+  font-family: "Poppins";
+  transition: all 0.4s ease-in-out;
+  text-align: center;
+}
+.login input:focus {
+  border: 1px solid #fbc239;
+}
+span.forgot-pass {
+  width: 100% !important;
+  display: block;
+  text-align: end;
+}
+
+.login button.btn.btn-primary:hover {
+  background: #fff;
+  box-shadow: 0px 0px 0px 2px #000;
+  color: #000;
+}
+
+.login button.btn.btn-primary {
+  background: #000;
+  color: #fff;
+  font-family: "Poppins";
+  padding: 10px 20px;
+  cursor: pointer;
+  border: 0;
+  border-radius: 5px;
+  transition: 0.6s;
+}

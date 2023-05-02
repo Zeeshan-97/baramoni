@@ -1,0 +1,73 @@
+
+  
+ /* custom checkbox start here */
+.custom_check_for {
+    display: block;
+    margin-bottom: 0;
+    margin-top: 8px;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 3px;
+  }
+  
+  .custom_check_for input {
+    padding: 0;
+    height: initial;
+    width: initial;
+    margin-bottom: 0;
+    display: none;
+    cursor: pointer;
+  }
+  
+.custom_check_for label {
+    position: relative;
+    cursor: pointer;
+    font-size: 11px;
+  }
+  .custom_check_for input:checked~.custom_check_for label::before{
+    background-color: #000;
+  }
+  .custom_check_for label:before {
+    content:'';
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: 2px solid #3DA033;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+    padding: 9px;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-bottom: 7px;
+    border-radius: 50%;
+    background: #3DA033;
+  }
+  
+  .custom_check_for input:checked + label:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: 8px;
+    width: 6px;
+    height: 14px;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    
+  }
+  /* custom checkbox end here */
+  .custom_check_for h3 {
+    font-size: 25px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.custom_check_for p {
+    font-size: 11px;
+    color: #28463B;
+    line-height: 2;
+}

@@ -1,0 +1,15 @@
+section.ProfileInfo-section.changephoneno {
+    margin-top: 3rem;
+}
+section.ProfileInfo-section.changephoneno p.eoc {
+    font-size: 16px;
+    font-weight: bold;
+}
+.form-start .form-control{
+    text-align: center;
+    font-size: 14px;
+}
+section.ProfileInfo-section .form-start .form-control::placeholder{
+    color: #274D5E;
+    font-family: 'gtwm';
+  }

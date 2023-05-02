@@ -1,0 +1,105 @@
+.pack-ul ul {
+    list-style: none;
+    padding: 0;
+}
+
+section.dashboard {
+    background-color: #FFFFFF;
+}
+
+.pack-ul ul li::before {
+    content: url('../../dashboard/img/check.png');
+    position: absolute;
+    left: -17px;
+}
+.pack-h2 h2 {
+    font-size: 25px;
+    color: #FFFFFF;
+    font-family: 'Poppins';
+}
+
+.pack-h2 {
+    background-color: #000;
+    text-align: center;
+    padding: 9px;
+}
+
+.pack-h3 h3 {
+    font-size: 27px;
+    color: #060606;
+    font-family: 'Poppins';
+    margin: 0;
+}
+
+.pack-h3 p {
+    font-size: 11px;
+    color: #060606;
+    font-family: 'poppins';
+}
+
+.pack-h3 {
+    text-align: center;
+    padding-top: 30px;
+}
+.pack-ul ul li {
+    font-size: 15px;
+    color: #060606;
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+
+.pack-ul {
+    position: relative;
+    left: 66px;
+    padding: 28px 0px;
+}
+
+.pack-btn button {
+    background-color: #000;
+    color: #ffffff;
+    padding: 10px 30px;
+    border: 1px sodid #000;
+    border: 1px solid #000;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.pack-btn {
+    text-align: center;
+}
+
+.pacakges p {
+    font-size: 15px;
+    color: #272727;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+.pacakges p span {
+    color: #3DA033;
+    text-transform: uppercase;
+}
+
+.pack-row {
+    /* padding: 40px 0px; */
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+.pacakges:hover button {
+    background-color: #3da033;
+    border: 1px solid #3da033;
+}
+.select_pack_sec {
+    width: 700px;
+    text-align: center;
+    margin: auto;
+}
+.select_pack_sec h4 {
+    font-size: 23px;
+    font-weight: 600;
+}
+.select_pack_sec p {
+    font-size: 12px;
+    text-align: center;
+}

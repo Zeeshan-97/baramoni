@@ -1,0 +1,80 @@
+.location-txt {
+    margin: 10px 0;
+}
+.ownerproperty .user-profile-sec .username1 {
+    font-size: 13px;
+    font-weight: 700;
+    /* border-bottom: 1px solid #CECECE; */
+    width: 100%;
+    /* text-align: center; */
+    /* padding: 1rem 0; */
+    margin-left: 5rem;
+}
+.ownerproperty .user-profile-sec .username {
+    font-weight: 700;
+}
+.ownerproperty .user-profile-sec .username {
+    font-weight: 700;
+    text-align: left;
+    width: 100%;
+}
+.ownerproperty .useremail {
+    /* border-bottom: 1px solid #CECECE; */
+    width: 100%;
+    padding-bottom: 1rem;
+}
+.ownerproperty hr.line {
+    border-top: 1px solid #CECECE;
+    width: 100%;
+}
+.ownerproperty button.btn.btn-primary{
+    padding: 10px 60px;
+}
+.ownerproperty .username1 {
+    margin-left: 5rem;
+}
+.ownerproperty .username {
+    margin-left: 5rem;
+}
+.ownerproperty .useremail {
+    margin-left: 5rem;
+}
+.ownerproperty .username1 a {
+    text-decoration: none;
+    color: #000;
+}
+.ownerproperty p.hoseusa {
+    margin: 0;
+}
+section.ProfileInfo-section.ownerproperty p.username {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+.ownerproperty .proper-img {
+    text-align: end;
+}
+.ownerproperty p.pro-txt {
+    color: #8A8A8A;
+    font-size: 12px;
+}
+.ownerproperty a.page-link {
+    background-color: #F5F5F5;
+    color: #000;
+    border: 1px solid #000;
+    margin-left: 10px;
+    border-radius: 3px;
+}
+.ownerproperty .page-link:focus,.ownerproperty .page-link:hover {
+    color: #fff  !important;
+    text-decoration: none;
+    background-color: #000;
+    border-color: #000;
+}
+.ownerproperty ul.pagination {
+    justify-content: center;
+}
+.ownerproperty .prop-img {
+    width: 168px;
+    height: 130px;
+}

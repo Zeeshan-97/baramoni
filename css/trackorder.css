@@ -1,0 +1,88 @@
+.track_order_content .input-group-prepend {
+    background: #619700;
+    /* padding: 0px 5rem; */
+}
+.track_order_content .input-group-prepend button.btn {
+    padding: 10px 3rem;
+}
+.track_order_content {
+    width: 900px;
+    margin: 0 auto;
+}
+h2.track_order_heading {
+    text-align: center;
+}
+h2.track_order_heading {
+    text-align: center;
+    color: #619700;
+    font-family: 'gm';
+}
+.track_order_checkbox .form-group {
+    display: inline;
+    margin-bottom: 15px;
+  }
+  
+  .track_order_checkbox .form-group input {
+    padding: 0;
+    height: initial;
+    width: initial;
+    margin-bottom: 0;
+    display: none;
+    cursor: pointer;
+  }
+  
+  .track_order_checkbox.form-group .cus_checkbox_label {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .track_order_checkbox .form-group .cus_checkbox_label:before {
+    content:'';
+    -webkit-appearance: none;
+    background-color: #CECECE;
+    /* border: 2px solid #CECECE; */
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+    padding: 8px;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 5px;
+    border-radius: 50%;
+    background-color: #619700;
+  }
+  
+  .track_order_checkbox .form-group input:checked + .cus_checkbox_label:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: 5px;
+    width: 6px;
+    height: 11px;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+  }
+  label.cus_checkbox_label {
+    position: relative;
+    font-size: 12px;
+}
+.track_order_checkbox .form-group:not(:last-child) {
+    margin-right: 3rem;
+}
+.track_order_content  .input-group
+ {
+    width: 500px;
+    margin: auto;
+}
+.track_order_content {
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.2);
+-webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.2);
+-moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.2);
+border-radius: 20px;
+    padding: 3rem;
+}
+section.track_order_sec {
+    padding: 3rem 0;
+}

@@ -1,0 +1,50 @@
+.chat_sec .welcome_john {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.chat_sec .welcome_john p.welcome {
+    font-size: 30px;
+    margin-bottom: 5px;
+    font-family: "gtwm";
+    color: #000;
+}
+
+.chat_sec .welcome_john p.john_n {
+    font-size: 40px;
+    font-family: 'gtwb';
+    color: #000;
+}
+
+.chat_sec .img_welcome span.active_user {
+    position: absolute;
+    background: #33D53F;
+    right: 25px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    top: 20px;
+}
+
+.chat_sec .img_welcome {
+    position: relative;
+}
+
+.chat_sec .img_welcome img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+
+.chat_sec .welcome_img2 img {
+    width: 500px;
+    margin: 5rem auto;
+    display: block;
+}
+
+.chat_sec .all-friends {
+    height: 507px;
+    overflow: auto;
+    background: #ebebeb;
+}

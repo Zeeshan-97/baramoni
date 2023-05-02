@@ -1,0 +1,123 @@
+.signin_heading_sec p {
+	width: 580px;
+	margin: 0 auto;
+}
+.dhaa_section {
+	margin: auto;
+}
+.dhaa_sec.text-center h3 {
+	color: #013307;
+}
+p.grey_txt {
+	color: #707070;
+	font-size: 12px;
+}
+.signin_heading_sec {
+	text-align: center;
+	margin-top: 4rem;
+}
+.signin_form_sec .form-control {
+	border: 0;
+	background-color: #efefef;
+	border-radius: 0;
+	padding: 1rem;
+}
+.signin_heading_sec h3 {
+	color: #013307;
+}
+section.sigin_section button.btn.w-100 {
+	border-radius: 0;
+	background: #3da033;
+}
+section.sigin_section a.btn {
+	border-radius: 0;
+	background: #3da033;
+}
+section.sigin_section a.btn:hover {
+	background: #fff;
+}
+section.sigin_section a.btn.reg_btn {
+	border-radius: 3px;
+	margin-top: 1.5rem;
+}
+.signin_form_sec .custom-check input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+}
+.signin_form_sec .custom-check input:checked ~ .checkmark {
+	background-color: #3da033;
+}
+.signin_form_sec section.signup-section .checkmark {
+	position: absolute;
+	top: 2px;
+	left: 0rem;
+	height: 12px;
+	width: 12px;
+	background-color: #000;
+}
+.signin_form_sec .checkmark {
+	position: absolute;
+	top: 6px;
+	left: 15px;
+	height: 12px;
+	width: 12px;
+	background-color: #3da033;
+}
+.signin_form_sec .custom-check input:checked ~ .checkmark:after {
+	display: block;
+}
+.signin_form_sec .custom-check .checkmark:after {
+	top: 0px;
+	left: 4px;
+}
+.signin_form_sec .custom-check .checkmark:after {
+	left: 4px;
+	top: 0px;
+	width: 5px;
+	height: 10px;
+	border: solid white;
+	border-width: 0 3px 3px 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+.signin_form_sec .checkmark:after {
+	content: "";
+	position: absolute;
+	display: none;
+}
+.signin_form_sec label.custom-check {
+	margin-left: 20px;
+}
+.signin_form_sec .contactus-form-btn a {
+	color: #3da033;
+	text-decoration: underline;
+}
+.border_col:after {
+	content: "";
+	background: #707070;
+	width: 2px;
+	height: 190px;
+	position: absolute;
+	border-radius: 0;
+	margin-top: 55px;
+	border: 0;
+}
+
+/* otp css start here */
+a.ressend {
+	color: #3da033;
+	text-decoration: underline;
+}
+/* otp css end here */
+@media (max-width: 768px) {
+	.border_col {
+		display: none;
+	}
+	.signin_heading_sec p {
+		width: 300px;
+	}
+}

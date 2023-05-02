@@ -1,0 +1,96 @@
+/* Begin of contact us  */
+section.contact-sec .get-qoute h2 {
+	font-size: 45px;
+	color: #1e202e;
+	font-family: "gtwm";
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
+section.contact-sec .get-qoute p {
+	font-size: 14px;
+	color: #363636;
+	font-family: "Poppins", sans-serif;
+}
+
+section.contact-sec .form-group label {
+	font-size: 16px;
+	color: #013307;
+	font-family: "gtw";
+}
+
+section.contact-sec .form-group input {
+	background-color: #efefef;
+	border: none;
+}
+
+section.contact-sec .form-btn button {
+	width: 55%;
+	border: none;
+	background-color: #3da033;
+	border-radius: unset;
+	border: 1px solid #3da033;
+}
+section.contact-sec .form-btn button:hover {
+	color: #3da033;
+	background: #fff;
+	border: 1px solid #3da033;
+}
+.form-group textarea {
+	background-color: #efefef;
+	height: 160px;
+	resize: none;
+	border: none;
+}
+.info-all h4 {
+	font-size: 30px;
+	color: #232323;
+	font-family: "Poppins";
+	font-weight: 600;
+}
+
+.info-all a {
+	font-size: 15px;
+	color: #888888;
+}
+
+.info-all {
+	text-align: center;
+}
+.info-all p {
+	font-size: 14px;
+	color: #929292;
+	font-family: "Poppins";
+	font-weight: 400;
+}
+
+section.info-sec {
+	padding: 60px;
+}
+
+.for-borders {
+	border-right: 1px solid #a4a4a4;
+	border-left: 1px solid #a4a4a4;
+}
+
+.info-all h4 {
+	font-size: 30px;
+	color: #232323;
+	font-family: "Poppins";
+	font-weight: 600;
+	margin: 0;
+	padding: 10px 0px;
+}
+
+section.contact-sec {
+	padding-top: 80px;
+}
+@media (max-width: 425px) {
+	.for-borders {
+		border-top: 1px solid #a4a4a4;
+		border-bottom: 1px solid #a4a4a4;
+		border-left: 0;
+		border-right: 0;
+	}
+}
+/* End of contact us  */

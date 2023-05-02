@@ -1,0 +1,486 @@
+
+/* profile section start */
+.agentprofile .username a {
+    color: #274D5E;
+}
+.form-control::placeholder{
+    color: #274D5E;
+    font-size: 14px;
+  }
+.profileanc1 {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    justify-content: space-between;
+}
+.useracc{
+    font-size: 15px;
+    background: #3DA033;
+    width: -webkit-fill-available;
+    /* text-align: center; */
+    color: white;
+    margin: 0;
+    padding-left: 1rem;
+}
+.useriamge img {
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+  }
+  
+  .useriamge {
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+  }
+  .profile-sec-head .contact-us-head {
+    padding: 4rem;
+  }
+  section.ProfileInfo-section .btn-right {
+    text-align: end;
+  }
+  .user-profile-sec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1rem;
+    background: #fff;
+    box-shadow: 0px 0px 2px 0px rgb(0 0 0 / 17%);
+    -webkit-box-shadow: 0px 0px 2px 0px rgb(0 0 0 / 17%);
+    -moz-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.17);
+  }
+  
+  /* .user-profile-sec h3 {
+    font-size: 15px;
+    background: #3DA033;
+    width: -webkit-fill-available;
+    text-align: center;
+    color: white;
+  } */
+  .user-profile-sec .username {
+    font-size: 13px;
+  }
+  
+  .user-profile-sec .useremail {
+    font-size: 13px;
+  }
+  button.btn.btn-primary {
+    background: #000;
+    color: #fff;
+    font-family: "Poppins";
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 5px;
+    transition: 0.6s;
+  }
+  button.btn.btn-primary:hover {
+    background: #fff;
+    box-shadow: 0px 0px 0px 2px #000;
+    color: #000;
+  }
+  section.ProfileInfo-section .col-md-7 p {
+    font-size: 13px;
+  }
+  .profiled {
+    font-size: 14px;
+    font-weight: 800;
+  }
+  .col-md-3.profilec {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .col-md-3.profilec span {
+    font-size: 13px;
+  }
+  /* .profilen {
+    display: flex;
+    gap: 20px;
+  } */
+  .profilen p:nth-child(1) {
+    font-size: 13px;
+    color: #919191;
+    margin: 0;
+  }
+  .profilen a {
+    font-size: 13px;
+    text-decoration: underline;
+  }
+  .profileanc {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+  }
+  
+  .profileanc p {
+    font-size: 16px !important;
+    color: #000 !important;
+  }
+  .photo p {
+    font-size: 16px !important;
+    margin: 0;
+  }
+  .row.profile-h {
+    display: flex;
+    align-items: center;
+  }
+  .row.profile-h .col-md-3 a {
+    text-decoration: underline;
+    color: black;
+  }
+  .information {
+    border-radius: 6px;
+    box-shadow: 0px 2px 7px 1px rgba(0, 0, 0, 0.27);
+    padding: 2rem;
+    -webkit-box-shadow: 0px 2px 7px 1px rgba(0, 0, 0, 0.27);
+    -moz-box-shadow: 0px 2px 7px 1px rgba(0, 0, 0, 0.27);
+  }
+  .user-profile-sec .username1 {
+    font-size: 13px;
+    font-weight: 700;
+    /* border-bottom: 1px solid #CECECE; */
+    width: 100%;
+    /* text-align: center; */
+    padding: 1rem 0;
+    /* margin-left: 5rem; */
+}
+.user-profile-sec .username {
+    font-weight: 700;
+}
+.user-profile-sec .username {
+    font-weight: 700;
+    text-align: left;
+    width: 100%;
+}
+.agentprofile .useremail {
+    /* border-bottom: 1px solid #CECECE; */
+    width: 100%;
+    padding-bottom: 1rem;
+}
+.agentprofile hr.line {
+    border-top: 1px solid #CECECE;
+    width: 100%;
+}
+.agentprofile button.btn.btn-primary{
+    padding: 10px 60px;
+}
+.agentprofile .username1 {
+    /* margin-left: 5rem; */
+}
+.agentprofile .username {
+    /* margin-left: 5rem; */
+    text-align: center;
+}
+.agentprofile .useremail {
+    /* margin-left: 5rem; */
+    text-align: center;
+}
+.agentprofile .username1 a {
+    text-decoration: none;
+    color: #5E5E5E;
+}
+p.fullname {
+    font-size: 13px;
+    font-weight: 700;
+}
+p.hoseusa {
+    margin: 0;
+}
+  /* profile section End */
+/* order table starts here */
+.order-table-wrapper table {
+    margin-left: 10px;
+  }
+  .order-table-wrapper tr.row1 th {
+    padding: 23px 20px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 15px;
+    color: #274d5e;
+    font-family: 'gtwm';
+  }
+  .order-table-wrapper tr.row2 td {
+    padding: 18px 20px;
+    text-align: center;
+  }
+ .order-table-wrapper tr.row2 td {
+    border-bottom: 1px solid #c7c7c7;
+    border-top: 1px solid #c7c7c7;
+  }
+.order-table-wrapper tr.row2 td:first-child {
+    border-left: 1px solid #c7c7c7;
+  }
+ .order-table-wrapper tr.row2 td:last-child {
+    border-right: 1px solid #c7c7c7;
+  }
+  .order-table-wrapper .row2 td {
+    color: #274d5e;
+    font-family: "GT Walsheim Pro Regular";
+    font-size: 13px;
+  }
+   .order-table-wrapper td.paid {
+    color: #00bc26;
+  }
+  h3.basic_head {
+    font-size: 23px;
+    font-family: 'gtwm';
+    color: #274D5E;
+}
+  .order-table-wrapper .order-details a {
+    color: #3DA033;
+    text-transform: uppercase;
+    font-family: "gtwm";
+    /* font-weight: bold; */
+    text-decoration: underline;
+    font-size: 12px;
+  }
+  .pagination-wrapper a.page-link {
+    display: flex;
+    line-height: 0px;
+    height: unset;
+    margin: 5px;
+    padding: 14px;
+    justify-content: center;
+    font-family: "Proxima Nova";
+    font-size: 18px;
+    color: #6e6e6e;
+    font-weight: 400 !important;
+    font-style: normal !important;
+    border: 1px solid #6e6e6e;
+  }
+  .pagination li a i {
+    line-height: 0px;
+  }
+  ul.pagination li.page-item:first-child a.page-link,
+  ul.pagination li.page-item:last-child a.page-link {
+    border-radius: 0px !important;
+    background: #1aac7a;
+    border: 0px;
+    color: #fff;
+    font-size: 25px;
+  }
+  .pagination-wrapper .active a.page-link {
+    color: #1aac7a;
+    background: transparent;
+    border-color: #1aac7a;
+  }
+  /* profile tab css starts here */
+  /* order responsive start here */
+  @media (max-width: 1100px) {
+    .order-table-wrapper tr.row1 th {
+      padding: 23px 9px;
+      font-size: 14px;
+    }
+    .order-table-wrapper .row2 td {
+      font-size: 14px;
+    }
+  }
+  @media (max-width: 1018px) {
+    .order-table-wrapper .row2 td {
+      font-size: 13px;
+    }
+  }
+  @media (max-width: 700px) {
+    .order-table-wrapper tr.row2 td {
+      padding: 9px 7px;
+    }
+  }
+  /* order responsive ends here */
+  /* modal css starts here */
+.profile-row button.close span {
+    color: #1aac7a;
+  }
+  .profile .modal-dialog {
+    max-width: 41%;
+  }
+  .close {
+    opacity: 1;
+  }
+  .modal-header .close {
+    margin: 0;
+  }
+  .model-header {
+    text-align: center;
+    padding: 20px 11px;
+    border-bottom: 1px solid #e9efea;
+  }
+  .profile-row h5#exampleModalLongTitle {
+    font-size: 43px;
+    font-family: "GT Walsheim Pro Regular";
+    color: #1aac7a;
+  }
+  .profile-row .model-header h6 {
+    color: #274d5e;
+    font-family: "GT Walsheim Pro Regular";
+    font-size: 37px;
+    font-weight: 400;
+  }
+  .model-header button.close {
+    margin-top: -92px;
+    margin-right: 24px;
+  }
+  .model-header h6 {
+    font-size: 13px;
+    font-family: "GT Walsheim Pro Regular";
+    color: #274d5e;
+    /* margin-top: 28px; */
+    font-weight: 400;
+  }
+  .modal-title {
+    color: #274d5e;
+    font-family: "gtwm";
+    font-size: 27px;
+    font-weight: 500;
+  }
+  .product-deatail-wrapper {
+    padding: 0px 30px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
+  .modal-open .modal {
+    overflow: scroll !important;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none;
+  }
+  .modal-open .modal::-webkit-scrollbar {
+    display: none;
+  }
+  .product_img {
+    flex: 2;
+  }
+  .product-content {
+    flex: 5;
+  }
+  .product-price {
+    flex: 1;
+  }
+  .profile .modal-body h6 {
+    color: #1aac7a;
+    font-family: "GT Walsheim Pro Regular";
+    font-size: 20px;
+  }
+  h6.product-price {
+    font-size: 21px;
+    font-weight: 600;
+  }
+  h6.product-size {
+    color: #1f2c35 !important;
+    font-weight: 400;
+    font-size: 14px !important;
+    margin-bottom: 0;
+    font-family: 'gtwm';
+  }
+  h6.product-size span {
+    margin-left: 15px;
+    font-size: 12px;
+}
+  h5.product-name {
+    font-size: 14px;
+    color: #274d5e;
+    font-family: "gtwm";
+    font-weight: 500;
+    margin-bottom: 0;
+  }
+  .product-deatail-wrapper h4.stocks {
+    /* font-size: 16px; */
+    font-family: "gtwm";
+    font-size: 14px;
+    color: #274d5e;
+    font-weight: 400;
+    line-height: 2;
+  }
+  .product-deatail-wrapper small {
+    color: #8a9397;
+    font-family: "gtw";
+    font-size: 10px;
+  }
+  .product-deatail-wrapper {
+    border: 1px solid #d7e6db;
+    border-radius: 10px;
+    padding: 20px 0;
+  }
+  .product_img {
+    text-align: center;
+  }
+  .product_img figure {
+    margin: 0px;
+  }
+  .product_img figure img {
+    background: #619700;
+    padding: 7px;
+    border-radius: 5px;
+  }
+  .product-deatail-wrapper {
+    margin: 20px auto !important;
+    width: 90%;
+    box-shadow: 3px 3px 10px 1px #00000024;
+  }
+  .order-details-wrapper {
+    padding: 0px 32px;
+  }
+    .order-details-wrapper button.btn.form-control:hover {
+      background: #fff;
+      color: #619700;
+      border: 1px solid #619700;
+    }
+  .order-details-wrapper h6 {
+    display: flex;
+    justify-content: space-between;
+    color: #274d5e !important;
+    font-size: 14px !important;
+    font-weight: 500;
+    line-height: 2.5;
+    font-family: 'gtwm';
+  }
+  .order-details-wrapper {
+    padding: 0px 40px;
+  }
+  /* responsive starts here */
+  @media (max-width: 1345px) {
+    .profile .modal-dialog {
+      max-width: 51% !important;
+    }
+  }
+  @media (max-width: 1130px) {
+    .profile .modal-dialog {
+      max-width: 61% !important;
+    }
+  }
+  @media (max-width: 936px) {
+    .profile .modal-dialog {
+      max-width: 71% !important;
+    }
+  }
+  @media (max-width: 822px) {
+    .profile .modal-dialog {
+      max-width: 81% !important;
+    }
+  }
+  @media (max-width: 758px) {
+    .product-deatail-wrapper {
+      flex-direction: column;
+      align-items: center;
+    }
+    .product-deatail-wrapper.active {
+      border-right: none;
+      border-bottom: 3px solid #1aac7a;
+      margin: 10px 0px;
+    }
+  }
+  @media (max-width: 563px) {
+    .profile .modal-dialog {
+      max-width: 81% !important;
+      margin: 30px auto;
+    }
+    .order-details-wrapper h6 {
+      display: inline-block;
+    }
+    .order-details-wrapper {
+      padding: 0px 52px;
+      text-align: center;
+    }
+  }
+  /* responsive ends here */
+  /* modal css ends here */

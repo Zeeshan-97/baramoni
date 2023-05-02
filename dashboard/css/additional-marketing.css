@@ -1,0 +1,266 @@
+/* Additional Css Start Here */
+.additional_marketing .topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.additional_marketing .topbar .heading h3 {
+  font-family: "Poppins";
+  font-size: 35px;
+  font-weight: 600;
+  color: #002349;
+}
+.additional_marketing .topbar .button-group .balance-btn {
+  background: #647587;
+  border: 0;
+  font-size: 16px;
+  font-family: "Poppins";
+  color: #fff;
+  padding: 12px 40px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.additional_marketing .topbar .button-group button.buy-btn {
+  background: #092e55;
+  border: 0;
+  font-size: 16px;
+  font-family: "Poppins";
+  color: #fff;
+  padding: 12px 40px;
+  border-radius: 5px;
+}
+.additional_marketing .package_box {
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 5px 10px #ddd;
+  padding: 50px 50px;
+  margin: 0 0 30px;
+}
+.additional_marketing .package_box .content_box .headings {
+  padding-bottom: 20px;
+}
+.additional_marketing .package_box .content_box .headings h4 {
+  font-size: 18px;
+  color: #272727;
+  font-weight: 600;
+}
+.additional_marketing .package_box .content_box .headings h5.price {
+  color: #465c74;
+  font-weight: 600;
+  padding: 3px 0 0;
+}
+.additional_marketing .package_box .content_box .headings p {
+  font-size: 16px;
+  color: #425060;
+  font-weight: 500;
+}
+.additional_marketing .package_box .form-group {
+  margin: 0 25px 0 0;
+}
+.additional_marketing .package_box .content_box .input-group .form-group label {
+  font-size: 16px;
+  color: #272727;
+  font-weight: 600;
+}
+.additional_marketing
+  .package_box
+  .content_box
+  .input-group
+  .form-group
+  select.form-control {
+  background-color: #f3f4fb !important;
+  font-size: 13px;
+  height: 50px;
+  line-height: 40px;
+  width: 210px;
+  padding: 5px 30px;
+  border-radius: 0 !important;
+  outline: none;
+  color: #8a8a8a;
+  font-weight: 600;
+}
+.additional_marketing .package_box .payment_box {
+  width: 220px;
+  margin: 0 0 0 auto;
+}
+.additional_marketing .package_box .payment_box .total {
+  background: #123760;
+  padding: 18px 0;
+  border-radius: 7px;
+  text-align: center;
+  width: 100px;
+  margin: 0px auto -25px;
+  position: relative;
+}
+.additional_marketing .package_box .payment_box .total h5 {
+  margin: 0;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 600;
+}
+.additional_marketing .package_box .payment_box .inner_box {
+  background: #f3f4fb;
+  text-align: center;
+  padding: 20px 10px;
+}
+.additional_marketing .package_box .payment_box .inner_box h4 {
+  margin: 0;
+  font-size: 14px;
+  color: #687881;
+  font-weight: 500;
+}
+.additional_marketing .package_box .payment_box .inner_box a {
+  text-decoration: none;
+}
+.additional_marketing .package_box .payment_box .inner_box h2 {
+  padding: 40px 0 25px;
+  color: #123760;
+  font-size: 57px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.additional_marketing .package_box .payment_box .inner_box h2 span {
+  font-size: 25px;
+  color: #76889b;
+  margin-left: 10px;
+}
+.additional_marketing ul.payments_cards {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.additional_marketing ul.payments_cards li {
+  display: inline-block;
+}
+.additional_marketing ul.payments_cards li label.container {
+  display: unset;
+}
+.additional_marketing ul.payments_cards li label.container input {
+  opacity: 0;
+}
+.additional_marketing ul.payments_cards li label.container span.checkmark img {
+  width: 60px;
+  height: 38px;
+  padding: 4px 4px;
+}
+.additional_marketing
+  ul.payments_cards
+  li
+  label.container
+  input:checked
+  ~ span.checkmark
+  img {
+  border: 3px solid #2a263d;
+  border-radius: 5px;
+}
+.additional_marketing .payment_methods_box {
+  padding: 25px 0 25px;
+}
+.additional_marketing .payment_methods_box .heading {
+  padding-bottom: 20px;
+}
+.additional_marketing .payment_methods_box .heading h3 {
+  font-family: "Poppins";
+  font-size: 35px;
+  font-weight: 600;
+  color: #002349;
+}
+.additional_marketing .payment_methods_box .form-group label {
+  font-size: 16px;
+  color: #272727;
+  font-weight: 600;
+}
+/* .additional_marketing .payment_methods_box .form-group .form-control {
+  background-color: #f3f4fb !important;
+  font-size: 13px;
+  height: 50px;
+  line-height: 40px;
+  width: 70%;
+  padding: 5px 30px;
+  border-radius: 0 !important;
+  outline: none;
+  color: #8a8a8a;
+  font-weight: 600;
+} */
+.additional_marketing .payment_methods_box .button-group button.paynow {
+  background: #092e55;
+  border: 0;
+  font-size: 16px;
+  font-family: "Poppins";
+  color: #fff;
+  padding: 12px 40px;
+  border-radius: 0;
+  margin-right: 10px;
+  font-weight: 600;
+}
+/* Additional Css End Here */
+.additional_marketing .payment_methods_box .card-bos-wrappper {
+  display: flex;
+  background-color: #f3f4fb !important;
+  font-size: 13px;
+  height: 50px;
+  line-height: 40px;
+  width: 60%;
+
+  border-radius: 0 !important;
+  outline: none;
+  color: #8a8a8a;
+  font-weight: 600;
+  padding: 6px;
+}
+.additional_marketing .payment_methods_box .card-bos-wrappper input {
+  background: transparent;
+  border: none;
+}
+.additional_marketing .payment_methods_box .card-bos-wrappper input.CVV {
+  text-align: end;
+}
+section.additional_marketing {
+  padding: 1rem;
+}
+
+section.additional_marketing {
+  padding: 1rem;
+  width: 500px;
+  background: #fff;
+  border-radius: 3px;
+  margin: auto;
+}
+section.additional_marketing .form-group input.form-control::placeholder {
+  font-size: 12px;
+  color: #000;
+
+}
+.additional_marketing .payment_methods_box .heading h3.paydetail {
+  font-size: 18px;
+  color: #272727;
+  font-weight: 600;
+  text-align: center;
+}
+.additional_marketing .payment_methods_box .button-group button.done {
+  background: #000;
+  border: 0;
+  font-size: 16px;
+  font-family: "Poppins";
+  color: #fff;
+  padding: 12px 40px;
+  border-radius: 0;
+  margin-right: 10px;
+  font-weight: 600;
+  width: -webkit-fill-available;
+  border-radius: 3px;
+  border: 1px solid #000;
+}
+.additional_marketing .payment_methods_box .button-group button.done:hover{
+  background: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+.additional_marketing .payment_methods_box input[type="text"]{
+  text-transform: uppercase;
+  font-family: 'Poppins';
+}

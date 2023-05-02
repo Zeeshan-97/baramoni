@@ -1,0 +1,555 @@
+
+/* Seller Order Css Start Here */
+.dashboard .shipmethods {
+  display: flex;
+  align-items: center;
+}
+.dashboard .heading_wrappers {
+  display: flex;
+  align-items: center;
+}
+.dashboard .heading_wrappers h4 {
+  color: #000000;
+  font-size: 20px;
+  font-family: "Poppins";
+  margin-right: 10px;
+  margin-bottom: 0;
+}
+.dashboard .heading_wrappers h5 {
+  color: #000000;
+  font-size: 11px;
+  font-family: "Poppins";
+  font-weight: 600;
+  margin: 0;
+}
+.dashboard .shipment_methods {
+  flex: 1;
+  margin-left: 45px;
+}
+.dashboard ul.shipmemntradios {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.dashboard ul.shipmemntradios label.container {
+  padding: 0;
+  margin: 0;
+  display: unset;
+  font-size: 11px;
+  color: #000000;
+  font-family: "Poppins";
+}
+.dashboard ul.shipmemntradios li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.dashboard ul.shipmemntradios label.container input {
+  opacity: 0;
+}
+.dashboard ul.shipmemntradios label.container span.checkmark:before {
+  content: "";
+  background: transparent;
+  width: 13px;
+  height: 13px;
+  position: absolute;
+  left: -20px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  box-shadow: 0px 0px 0px 1px #939090;
+  top: 1px;
+}
+.dashboard
+  ul.shipmemntradios
+  label.container
+  input:checked
+  ~ span.checkmark:before {
+  background: #07a8c4;
+}
+.dashboard .filters .title h6 {
+  color: #000000;
+  font-size: 11px;
+  font-family: "Poppins";
+  font-weight: 600;
+}
+.dashboard .filters .form-group label {
+  color: #000000;
+  font-size: 11px;
+  font-family: "Poppins";
+  font-weight: 600;
+}
+.dashboard .filters .form-group .form-control {
+  width: 100%;
+  font-weight: 400;
+  border: 1px solid #000000;
+  color: #000000;
+  font-family: "Poppins";
+  font-size: 11px;
+  border-radius: 4px;
+}
+.dashboard .filters .form-group {
+  flex: 1;
+}
+.dashboard .filters .input-group {
+  align-items: center;
+}
+.dashboard .filters .input-group span.spacer {
+  margin: 10px 10px 0px;
+}
+.sellers_orders {
+  background: #b1b1b11f;
+  padding: 40px 40px;
+}
+.sellers_orders tr th {
+  border: 0;
+  text-align: center;
+}
+.sellers_orders tr td {
+  border: 0;
+  text-align: center;
+  vertical-align: middle;
+}
+.sellers_orders .heading_wrapper {
+  padding-bottom: 30px;
+}
+.sellers_orders .heading_wrapper h4 {
+  color: #000000;
+  font-size: 20px;
+  font-family: "Poppins";
+}
+.sellers_orders th {
+  font-size: 12px;
+  color: #000000;
+  font-family: "Poppins";
+  font-weight: 600;
+  vertical-align: middle;
+}
+.sellers_orders tr.topbar {
+  /* border-bottom: 1px solid #bababa !important; */
+  height: 50px;
+  box-shadow: 0px 3px 5px 2px rgb(0 0 0 / 3%);
+}
+.sellers_orders .table tr {
+  /* border-bottom: 1px solid #bababa70; */
+}
+.sellers_orders td.orderid {
+  font-size: 12px;
+  color: #000000;
+  font-family: "Poppins";
+  padding: 30px;
+}
+.sellers_orders td.billingname {
+  font-size: 12px;
+  color: #000000;
+  font-family: "Poppins";
+}
+.sellers_orders td.amount {
+  font-size: 12px;
+  color: #000000;
+  font-family: "Poppins";
+}
+.sellers_orders td.items {
+  font-size: 12px;
+  color: #000000;
+  font-family: "Poppins";
+}
+.sellers_orders td.shipmentstatus {
+  font-size: 12px;
+  color: #000000;
+  font-family: "Poppins";
+}
+.sellers_orders td.shipmentstatus i {
+  margin-left: 5px;
+}
+.sellers_orders td.details {
+  text-align: center;
+}
+.sellers_orders td.details .action_detail button {
+  font-size: 12px;
+  color: #07a8c4;
+  font-family: "Poppins";
+  font-weight: 500;
+  border: 0;
+  background: transparent;
+  outline: none;
+  cursor: pointer;
+  padding: 0 8px;
+}
+.sellers_orders td.details .action_detail button{
+  text-decoration: underline;
+  color: #324253;
+}
+.sellers_orders .orderid {
+  text-align: left;
+  padding-left: 0;
+  width: 15%;
+  padding-left: 1.5rem;
+}
+.sellers_orders td.details .action_detail p {
+  margin-bottom: 0;
+  font-size: 12px;
+  color: #000000;
+  font-family: "Poppins";
+  line-height: 1.5;
+}
+.sellers_orders h5.cus_detail_head {
+  color: #000000;
+  font-family: "Poppins";
+  line-height: 1.5;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.sellers_orders .billingname {
+  width: 15%;
+}
+.sellers_orders .amount {
+  width: 15%;
+}
+.sellers_orders .items {
+  width: 15%;
+}
+.sellers_orders .shipmentstatus {
+  width: 17%;
+}
+.sellers_orders .details {
+  width: 25%;
+  padding-right: 0;
+}
+.sellers_orders td.details .action_detail button:last-child {
+  padding-right: 0;
+}
+.sellers_orders th.details {
+  padding-left: 16px;
+}
+.sellers_orders .paginations_results {
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  align-items: center;
+}
+.sellers_orders .paginations_results .showing_results p {
+  color: #000000;
+  font-size: 12px;
+  font-family: "Poppins";
+  margin: 0 0 15px;
+  margin-bottom: 0;
+}
+.sellers_orders .paginations_results .showing_results {
+  margin-right: 30px;
+}
+.sellers_orders .paginations_results ul.paginations {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.sellers_orders .paginations_results ul.paginations li {
+  display: inline-block;
+}
+.sellers_orders .paginations_results ul.paginations li.arrow {
+  border: 1px solid #ababab;
+  padding: 3px 10px;
+  border-radius: 4px;
+  margin: 0 5px;
+}
+.sellers_orders .paginations_results ul.paginations li.arrow i {
+  color: #3DA033;
+  font-size: 16px;
+}
+.sellers_orders .paginations_results ul.paginations li.pagi {
+  padding: 0 5px;
+  font-size: 12px;
+  color: #000000;
+  font-family: "Poppins";
+}
+.sellers_orders th {
+  text-decoration: underline;
+}
+.sellers_orders td.unshipped {
+  color: #F37070;
+  font-weight: 500;
+}
+.sellers_orders td.shipped {
+  color: #24B915;
+  font-weight: 500;
+}
+.sellers_orders tr td {
+  text-decoration: underline;
+}
+.sellers_orders hr {
+  color: #BABABA;
+}
+@media (max-width: 575px) {
+  .sellers_orders .table-resposnive {
+    overflow: auto;
+  }
+  .sellers_orders .table-resposnive .orderid {
+    min-width: 110px;
+  }
+  .sellers_orders .table-resposnive .billingname {
+    min-width: 130px;
+  }
+  .sellers_orders .table-resposnive .amount {
+    min-width: 100px;
+  }
+  .sellers_orders .table-resposnive .items {
+    min-width: 90px;
+  }
+  .sellers_orders .table-resposnive .shipmentstatus {
+    min-width: 150px;
+  }
+  .sellers_orders .table-resposnive .details {
+    padding: 0;
+    min-width: 200px;
+  }
+  .dashboard .filters .input-group {
+    display: block;
+  }
+  .dashboard .filters .input-group span.spacer {
+    display: none;
+  }
+  .dashboard .shipmethods {
+    display: block;
+    padding-bottom: 20px;
+  }
+  .dashboard .heading_wrappers {
+    margin-bottom: 5px;
+  }
+  .dashboard .shipment_methods {
+    margin: 0 0 0 20px;
+  }
+  .sellers_orders .paginations_results {
+    display: block;
+    text-align: center;
+  }
+}
+
+tr.topbar {
+  background-color: #ffffff;
+}
+/* Seller Order Css End Here */
+
+section.dashboard {
+  background-color: #FFFFFF;
+}
+
+.heading_wrapper h4 {
+  font-size: 35px;
+  color: #060606;
+  font-family: 'Poppins';
+  font-weight: 600;
+  text-align: center;
+  padding: 40px 0px;
+}
+ /* modal css starts here */
+ .profile-row button.close span {
+  color: #1aac7a;
+}
+.profile .modal-dialog {
+  max-width: 41%;
+}
+.close {
+  opacity: 1;
+}
+.modal-header .close {
+  margin: 0;
+}
+.model-header {
+  text-align: center;
+  padding: 20px 11px;
+  border-bottom: 1px solid #e9efea;
+}
+.profile-row h5#exampleModalLongTitle {
+  font-size: 43px;
+  font-family: "GT Walsheim Pro Regular";
+  color: #1aac7a;
+}
+.profile-row .model-header h6 {
+  color: #274d5e;
+  font-family: "GT Walsheim Pro Regular";
+  font-size: 37px;
+  font-weight: 400;
+}
+.model-header button.close {
+  margin-top: -92px;
+  margin-right: 24px;
+}
+.model-header button.close i {
+  font-size: 18px;
+  font-weight: lighter;
+  color: #3DA033;
+}
+.model-header h6 {
+  font-size: 13px;
+  font-family: "GT Walsheim Pro Regular";
+  color: #274d5e;
+  /* margin-top: 28px; */
+  font-weight: 400;
+}
+.modal-title {
+  color: #274d5e;
+  font-family: "gtwm";
+  font-size: 27px;
+  font-weight: 500;
+}
+.product-deatail-wrapper {
+  padding: 0px 30px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.modal-open .modal {
+  overflow: scroll !important;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;
+}
+.modal-open .modal::-webkit-scrollbar {
+  display: none;
+}
+.product_img {
+  flex: 2;
+}
+.product-content {
+  flex: 5;
+}
+.product-price {
+  flex: 1;
+}
+.profile .modal-body h6 {
+  color: #1aac7a;
+  font-family: "GT Walsheim Pro Regular";
+  font-size: 20px;
+}
+h6.product-price {
+  font-size: 21px;
+  font-weight: 600;
+}
+h6.product-size {
+  color: #1f2c35 !important;
+  font-weight: 400;
+  font-size: 14px !important;
+  margin-bottom: 0;
+  font-family: 'gtwm';
+}
+h6.product-size span {
+  margin-left: 15px;
+  font-size: 12px;
+}
+h5.product-name {
+  font-size: 14px;
+  color: #274d5e;
+  font-family: "gtwm";
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.product-deatail-wrapper h4.stocks {
+  /* font-size: 16px; */
+  font-family: "gtwm";
+  font-size: 14px;
+  color: #274d5e;
+  font-weight: 400;
+  line-height: 2;
+}
+.product-deatail-wrapper small {
+  color: #8a9397;
+  font-family: "gtw";
+  font-size: 10px;
+}
+.product-deatail-wrapper {
+  border: 1px solid #d7e6db;
+  border-radius: 10px;
+  padding: 20px 0;
+}
+.product_img {
+  text-align: center;
+}
+.product_img figure {
+  margin: 0px;
+}
+.product_img figure img {
+  background: #619700;
+  padding: 7px;
+  border-radius: 5px;
+}
+.product-deatail-wrapper {
+  margin: 20px auto !important;
+  width: 90%;
+  box-shadow: 3px 3px 10px 1px #00000024;
+}
+.order-details-wrapper {
+  padding: 0px 32px;
+}
+.order-details-wrapper h6 {
+  display: flex;
+  justify-content: space-between;
+  color: #274d5e !important;
+  font-size: 14px !important;
+  font-weight: 500;
+  line-height: 2.5;
+  font-family: 'gtwm';
+}
+.order-details-wrapper {
+  padding: 0px 40px;
+}
+.order-details-wrapper button.btn.form-control {
+  background: #619700;
+  color: #fff;
+  font-size: 12px;
+  padding: 10px 30px;
+  font-weight: 500;
+  transition: 0.6s;
+  border-radius: 5px;
+}
+.sellers_orders input[type="date"]{
+  color:#607285;
+  text-transform: uppercase;
+  font-family: 'Poppins';
+  font-weight: 500;
+}
+/* responsive starts here */
+@media (max-width: 1345px) {
+  .profile .modal-dialog {
+    max-width: 51% !important;
+  }
+}
+@media (max-width: 1130px) {
+  .profile .modal-dialog {
+    max-width: 61% !important;
+  }
+}
+@media (max-width: 936px) {
+  .profile .modal-dialog {
+    max-width: 71% !important;
+  }
+}
+@media (max-width: 822px) {
+  .profile .modal-dialog {
+    max-width: 81% !important;
+  }
+}
+@media (max-width: 758px) {
+  .product-deatail-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .product-deatail-wrapper.active {
+    border-right: none;
+    border-bottom: 3px solid #1aac7a;
+    margin: 10px 0px;
+  }
+}
+@media (max-width: 563px) {
+  .profile .modal-dialog {
+    max-width: 81% !important;
+    margin: 30px auto;
+  }
+  .order-details-wrapper h6 {
+    display: inline-block;
+  }
+  .order-details-wrapper {
+    padding: 0px 52px;
+    text-align: center;
+  }
+}
+/* responsive ends here */
+/* modal css ends here */

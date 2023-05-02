@@ -1,0 +1,261 @@
+.agentprofile .username a {
+  color: #274d5e;
+}
+.useracc {
+  font-size: 15px;
+  background: #3da033;
+  width: -webkit-fill-available;
+  /* text-align: center; */
+  color: white;
+  margin: 0;
+  padding-left: 1rem;
+}
+.useriamge img {
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+}
+
+.useriamge {
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+}
+.profile-sec-head .contact-us-head {
+  padding: 4rem;
+}
+section.ProfileInfo-section .btn-right {
+  text-align: end;
+}
+.user-profile-sec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 1rem;
+  background: #fff;
+  box-shadow: 0px 0px 2px 0px rgb(0 0 0 / 17%);
+  -webkit-box-shadow: 0px 0px 2px 0px rgb(0 0 0 / 17%);
+  -moz-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.17);
+}
+
+/* .user-profile-sec h3 {
+  font-size: 15px;
+  background: #3DA033;
+  width: -webkit-fill-available;
+  text-align: center;
+  color: white;
+} */
+.user-profile-sec .username {
+  font-size: 13px;
+  text-align: center;
+}
+
+.user-profile-sec .useremail {
+  font-size: 13px;
+}
+button.btn.btn-primary {
+  background: #000;
+  color: #fff;
+  font-family: "Poppins";
+  padding: 10px 20px;
+  cursor: pointer;
+  border: 0;
+  border-radius: 5px;
+  transition: 0.6s;
+}
+button.btn.btn-primary:hover {
+  background: #fff;
+  box-shadow: 0px 0px 0px 2px #000;
+  color: #000;
+}
+section.ProfileInfo-section .col-md-7 p {
+  font-size: 13px;
+}
+.profiled {
+  font-size: 14px;
+  font-weight: 800;
+}
+.col-md-3.profilec {
+  display: flex;
+  gap: 10px;
+}
+
+.col-md-3.profilec span {
+  font-size: 13px;
+}
+/* .profilen {
+  display: flex;
+  gap: 20px;
+} */
+.profilen p:nth-child(1) {
+  font-size: 13px;
+  color: #919191;
+  margin: 0;
+}
+.profilen a {
+  font-size: 13px;
+  text-decoration: underline;
+}
+.profileanc {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.profileanc p {
+  font-size: 16px !important;
+  color: #000 !important;
+}
+.photo p {
+  font-size: 16px !important;
+  margin: 0;
+}
+.row.profile-h {
+  display: flex;
+  align-items: center;
+}
+.row.profile-h .col-md-3 a {
+  text-decoration: underline;
+  color: black;
+}
+.information {
+  border-radius: 6px;
+  box-shadow: 0px 2px 7px 1px rgba(0, 0, 0, 0.27);
+  padding: 2rem;
+  -webkit-box-shadow: 0px 2px 7px 1px rgba(0, 0, 0, 0.27);
+  -moz-box-shadow: 0px 2px 7px 1px rgba(0, 0, 0, 0.27);
+}
+.user-profile-sec .username1 {
+  font-size: 13px;
+  font-weight: 700;
+  /* border-bottom: 1px solid #CECECE; */
+  width: 100%;
+  /* text-align: center; */
+  padding: 1rem 0;
+  /* margin-left: 5rem; */
+}
+.user-profile-sec .username {
+  font-weight: 700;
+}
+.user-profile-sec .username {
+  font-weight: 700;
+  text-align: center;
+  width: 100%;
+}
+.avatar-upload {
+  position: relative;
+  max-width: 220px;
+}
+section.ProfileInfo-section .form-start .form-control::placeholder {
+  color: #274d5e;
+  font-family: "gtwm";
+}
+.avatar-edit label {
+  position: absolute;
+  right: 3rem;
+  z-index: 1;
+  top: 1.5rem;
+  left: -1rem;
+  text-align: center;
+  background: #3da033;
+  margin: 0 20px;
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 12px;
+  padding: 20px 0;
+  line-height: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  right: 8rem;
+}
+.avatar-edit label:hover {
+  background: #fff;
+  color: #3da033;
+  border: 1px solid #3da033;
+}
+.avatar-edit input {
+  display: none;
+}
+.jpg-png p {
+  font-size: 12px;
+  color: #274d5e;
+}
+.loader-pro {
+  text-align: right;
+}
+section.ProfileInfo-section button.btn {
+  width: auto;
+}
+/* change profile phone start */
+.information button.btn {
+  background: #3da033;
+  color: #fff;
+  font-family: "Poppins";
+  padding: 15px 50px;
+  cursor: pointer;
+  width: 100%;
+  border: 0;
+  border-radius: 5px;
+  transition: 0.6s;
+}
+.information button.btn:hover {
+  background: #fff;
+  box-shadow: 0px 0px 0px 2px #3da033;
+  color: #3da033;
+}
+section.ProfileInfo-section {
+  font-family: "Poppins";
+}
+/* change profile phone End */
+
+/* .avatar-upload .avatar-preview {
+  height: 280px;
+  position: relative;
+  border: 2px solid #7070709e;
+  border-radius: 0;
+  display: flex;
+}
+.avatar-preview.active_img #imagePreview {
+  filter: unset;
+}
+.avatar-upload .avatar-preview > div {
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: brightness(0.5);
+}
+/* .avatar-edit label {
+margin: 0 130px !important;
+} */
+.avatar-edit input {
+  display: none;
+}
+/* .avatar-preview {
+height: 280px;
+position: relative;
+border: 2px solid #7070709e;
+border-radius: 0;
+display: flex;
+} */
+.avatar-preview.active_img #imagePreview {
+  filter: unset;
+}
+.avatar-preview > div {
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: brightness(0.5);
+}
+.profile-h .avatar-preview.active_img {
+  width: 140px;
+  height: 140px;
+}
+.profile-h .avatar-preview.active_img div#imagePreview {
+  border-radius: 50%;
+}
